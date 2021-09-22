@@ -1,0 +1,21 @@
+
+
+
+.createStyle(@index) when(@index < 100) {
+  @c:@index * 1;
+  @d:(1px * @index);
+  .m-t@{c}{
+    margin-top : @d;
+  }
+  .m-r@{c}{
+    margin-right: @d;
+  }
+  .m-t@{c}{
+    margin-bottom: @d;
+  }
+  .m-l@{c}{
+    margin-left: @d;
+  }
+  .createStyle((@index + 1));
+}
+.createStyle(1);

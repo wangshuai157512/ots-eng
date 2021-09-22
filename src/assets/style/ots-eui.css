@@ -1,0 +1,29 @@
+/*表格样式*/
+.el-table .el-table__header-wrapper .has-gutter tr th,
+.el-table__fixed-right .el-table__fixed-header-wrapper .el-table__header thead tr th,
+.el-table__fixed .el-table__fixed-header-wrapper .el-table__header thead tr th {
+  background: #F4F5F8;
+  color: #2D2F33;
+}
+.el-button--primary {
+  color: #FFF;
+  background-color: #006AFF;
+  border-color: #006AFF;
+}
+
+/* confirm 弹窗 */
+.el-message-box {
+  border-radius: 8px;
+}
+.el-message-box__title{
+  font-size: 20px;
+  font-weight: 500;
+}
+.el-message-box .el-button{
+  border-radius: 16px;
+}
+.el-message-box .el-button--primary {
+  color: #FFF;
+  background-color: #006AFF;
+  border-color: #006AFF;
+}
